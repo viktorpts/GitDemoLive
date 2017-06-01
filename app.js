@@ -9,7 +9,7 @@
         maxSpeed: 5,
         gravity: 1,
         friction: 0.5,
-        jump: 20
+        jump: 30
     };
 
 
@@ -98,6 +98,7 @@
 
         ctx.save();
 
+        ctx.fillStyle = "green";
         ctx.translate(person.x, person.y);
         ctx.fillRect(-25, -100, 50, 100);
 

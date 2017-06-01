@@ -9,7 +9,7 @@
         maxSpeed: 5,
         gravity: 1,
         friction: 0.5,
-        jump: 20
+        jump: 10
     };
 
 
@@ -19,7 +19,8 @@
         y: 300,
         velx: 0,
         vely: 0,
-        onGround: false
+        onGround: false,
+        duck: false
     };
 
     // Controller
